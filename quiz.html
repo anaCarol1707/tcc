@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mollis Beauty Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="icon" href="logo.png" />
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo" />
+            </div>
+            <div class="search-bar">
+                <input type="search" id="search-input" placeholder="Digite o que você procura" />
+                <button id="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <ul class="menu" id="menu">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Quiz</a></li>
+            </ul>
+            <img src="user.png" class="user" alt="" />
+        </nav>
+    </header>
+
+    <main>
+        <!-- Formulário -->
+        <div class="form-container">
+            <h2>PREENCHA OS CAMPOS E DESCUBRA A ROTINA IDEAL PARA VOCÊ</h2>
+
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Digite seu nome">
+
+            <label>Idade</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Até 18</label>
+                <label><input type="checkbox"> 20 a 30</label>
+                <label><input type="checkbox"> 40 a 50</label>
+            </div>
+
+            <label for="skin-problem">Problema de pele</label>
+            <input type="text" id="skin-problem" placeholder="Digite o problema de pele">
+
+            <label for="skin-type">Tipo de pele</label>
+            <input type="text" id="skin-type" placeholder="Digite o tipo de pele">
+
+            <button class="confirm-button">CONFIRMAR</button>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="logo.png" alt="Logo Skincare" />
+        </div>
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Institucional</h4>
+            <ul>
+              <li><a href="#">Sobre nós</a></li>
+              <li><a href="#">Missão e valores</a></li>
+              <li><a href="#">Nossa história</a></li>
+              <li><a href="#">Equipe</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Produtos</h4>
+            <ul>
+              <li><a href="#">Linha de produtos</a></li>
+              <li><a href="#">Novos lançamentos</a></li>
+              <li><a href="#">Promoções</a></li>
+              <li><a href="#">Guia de produtos</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Suporte</h4>
+            <ul>
+              <li><a href="#">Perguntas frequentes</a></li>
+              <li><a href="#">Contato</a></li>
+              <li><a href="#">Termos de uso</a></li>
+              <li><a href="#">Política de privacidade</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
